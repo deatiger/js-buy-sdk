@@ -37,6 +37,7 @@ fragment VariantFragment on ProductVariant {
     src: originalSrc
     altText
   }
+  inventoryQuantity
   selectedOptions {
     name
     value
